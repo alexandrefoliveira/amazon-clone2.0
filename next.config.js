@@ -1,3 +1,6 @@
+// Next.js file insert all the links you're gonna use on the WebApp
 module.exports = {
-  reactStrictMode: true,
-}
+	images: {
+		domains: ['fakestoreapi.com', 'rebrand.ly'],
+	},
+};
