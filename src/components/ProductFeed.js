@@ -20,11 +20,13 @@ const ProductFeed = ({ products }) => {
 					);
 				})}
 
-			<img
-				className='md:col-span-full'
-				src='https://rebrand.ly/ads_amazon'
-				alt='ads_amazon'
-			/>
+			<div>
+				<img
+					className='md:col-span-full'
+					src='https://rebrand.ly/ads_amazon'
+					alt='ads_amazon'
+				/>
+			</div>
 
 			<div className='md:col-span-2'>
 				{products
