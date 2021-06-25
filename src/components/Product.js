@@ -7,7 +7,7 @@ import Currency from 'react-currency-formatter';
 const MAX_RATING = 5;
 const MIN_RATING = 1;
 
-const Product = ({ id, title, price, description, category, image }) => {
+const Product = ({ title, price, description, category, image }) => {
 	// Function to random the stars
 	const [rating] = useState(
 		Math.floor(Math.random() * (MAX_RATING - MIN_RATING + 1)) + MIN_RATING,
